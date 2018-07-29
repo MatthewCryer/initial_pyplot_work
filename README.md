@@ -14,4 +14,4 @@ It makes good coders cry.
 
 In **gradchange.py** 
 
-Takes the same framework but is looking at a value changing over time. Uses simple statistics to identify when the gradient change is *x* sigma away from the mean, and then annotates the y value of this point on th plot.
+Takes the same framework but is looking at a value changing over time. Uses simple statistics to identify when the gradient change is *x* sigma away from the mean, and then annotates the y value of this point on the plot.
