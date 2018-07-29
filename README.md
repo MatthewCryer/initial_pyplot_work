@@ -1,5 +1,5 @@
 # initial_pyplot_work
-I was doing electrical device measurements that varied in a small number of ways and I wanted to write some code that plotted them all without any intervention from me. Takes the .xls outputs from a **Keithley SCS 4200** as a starting point.
+I was doing electrical device measurements that varied in a small number of ways and I wanted to write some code that plotted them all without any intervention from me. Takes the .xls outputs from a **Keithley SCS 4200** as a starting point. (When doing multiple measurements with more than one varying parameter sometimes it is just easier to use .xls rather than a huge .csv.)
 
 In **SCS4200.py**
 
@@ -15,3 +15,7 @@ It makes good coders cry.
 In **gradchange.py** 
 
 Takes the same framework but is looking at a value changing over time. Uses simple statistics to identify when the gradient change is *x* sigma away from the mean, and then annotates the y value of this point on the plot.
+
+In **cyclesheetsplitter.py**
+
+The original .xls will have a number of sheets that aren't needed for the data processing (but are useful to keep as they hold measurement meta data), use this program to remove unwanted sheets before passing to **SCS4200.py**.
