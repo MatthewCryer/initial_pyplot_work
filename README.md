@@ -19,3 +19,7 @@ Takes the same framework but is looking at a value changing over time. Uses simp
 In **cyclesheetsplitter.py**
 
 The original .xls will have a number of sheets that aren't needed for the data processing (but are useful to keep as they hold measurement meta data), use this program to remove unwanted sheets before passing to **SCS4200.py**.
+
+**master.py**
+
+Is just the program to call from the shell that runs everything else easily.
