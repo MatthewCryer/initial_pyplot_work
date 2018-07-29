@@ -1,5 +1,5 @@
 # initial_pyplot_work
-I was doing electrical device measurements that varied in a small number of ways and I wanted to write some code that plotted them all without any intervention from me.
+I was doing electrical device measurements that varied in a small number of ways and I wanted to write some code that plotted them all without any intervention from me. Takes the .xls outputs from a **Keithley SCS 4200** as a starting point.
 
 The variables were things like: 
 - Sweep direction (or both ways)
